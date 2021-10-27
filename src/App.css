@@ -18,6 +18,12 @@
   font-weight: 600;
 }
 
+.total {
+  font-size: 16px;
+  font-weight: 400;
+  color: gray;
+}
+
 .bio {
   text-align: center;
   color: gray;
@@ -25,12 +31,12 @@
 }
 
 .waveButton {
-  background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
+  background-image: linear-gradient(to right, #f6d365 0%, #fda085 100%);
   cursor: pointer;
-  margin-top: 16px;
   padding: 12px;
   border: 0;
   border-radius: 15px;
+	min-width: 70px;
 }
 
 .waveButton:hover {
